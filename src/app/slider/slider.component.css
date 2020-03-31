@@ -1,0 +1,38 @@
+.input-details{
+    position: absolute;
+    size: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: +1;
+    padding: 2%;
+    opacity: 0.95;
+
+}
+
+#submit-btn{
+    position: absolute;
+    left: 45%;
+}
+
+#getStart{
+    /*font-family: 'Monstserrat';*/
+    position: absolute;
+    z-index: 2;
+    color: white;
+    font-size: 300%;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+}
+
+.col-auto{
+    padding: 10px;
+}
+
+#logInArea{
+    position: absolute;
+    top: 10%;
+    left: 85%;
+    z-index: 3;
+}

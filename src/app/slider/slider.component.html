@@ -1,0 +1,78 @@
+<div id="logInArea" class="row">
+  <div class="col-auto">
+    <button type="button" id="logIn"   class="btn btn-primary" [routerLink]= "['/signin']" >Sign In</button>
+  </div>
+  <div class="col-auto">
+    <button type="button" id="signUp" class="btn btn-primary" [routerLink]= "['/signup']">Sign Up</button>
+  </div>
+</div>
+
+
+<div class="slider">
+  <div class="form-group row">
+    <div id="getStart">Get Start</div>
+  </div>
+<mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'" >
+    <mdb-carousel-item>
+      <div class="view w-100">
+        <img class="d-block w-100" src="assets/images/photo1.jpg" alt="First slide">
+        <div class="mask rgba-black-light waves-light" mdbWavesEffect></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Light mask</h3>
+        <p>First text</p>
+      </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <div class="view w-100">
+        <img class="d-block w-100" src="assets/images/photo2.jpg" alt="Second slide">
+        <div class="mask rgba-black-strong waves-light" mdbWavesEffect></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Strong mask</h3>
+        <p>Secondary text</p>
+      </div>
+    </mdb-carousel-item>
+    <mdb-carousel-item>
+      <div class="view w-100">
+        <img class="d-block w-100" src="assets/images/photo3.jpg" alt="Third slide">
+        <div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Slight mask</h3>
+        <p>Third text</p>
+      </div>
+    </mdb-carousel-item>
+  </mdb-carousel>
+
+
+
+
+
+
+
+  <!--Input area-->
+  <form>
+    <div class="input-details">
+      <div class="form-group row">
+          <div class="col-auto">
+            <input type="text" class="form-control" id="startPoint" placeholder="Start Point">
+          </div>
+          <div class="col-auto">
+            <input type="text" class="form-control" id="endPoint" placeholder="End Point">
+          </div>
+          <div class="col-auto">
+            <input type="text" class="form-control" id="date" placeholder="Date">
+          </div>
+      </div>
+      <div class="form-group row">
+        <button id="submit-btn" type="submit" class="btn btn-primary">Search</button>
+      </div>
+    </div>
+  </form>
+</div>
+
+
+
+
+
